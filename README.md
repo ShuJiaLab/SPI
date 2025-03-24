@@ -32,6 +32,7 @@ Step 5. WB deconvolution accelerates processing time by approximately 40 fold, w
 # Sample images:
 Sample images can be found at:
 https://gtvault-my.sharepoint.com/:f:/g/personal/kyoon47_gatech_edu/EtnweSat9TZBietUQ_cuK0kBo4RyfpOQikDBV-c41kIl8g?e=my6l4H
+Please make a new folder named Sample_data and put the data such that Matlab can load them for processing.
 
 # References:
 Please refer to relevant academic papers, documentation, or resources for a deeper undestanding of the SPI system and the reconstruction techniques used.
