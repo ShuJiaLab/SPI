@@ -29,6 +29,10 @@ Step 4. Example images have 74-nm pixel resolution. While this is sufficient for
 
 Step 5. WB deconvolution accelerates processing time by approximately 40 fold, which is suitable for high-throughput images obtained from SPI. We integrated WB Deconvolution functions into our source code. (https://github.com/eguomin/regDeconProject/tree/master/WBDeconvolution)
 
+# Sample images:
+Sample images can be found at:
+https://gtvault-my.sharepoint.com/:f:/g/personal/kyoon47_gatech_edu/EtnweSat9TZBietUQ_cuK0kBo4RyfpOQikDBV-c41kIl8g?e=my6l4H
+
 # References:
 Please refer to relevant academic papers, documentation, or resources for a deeper undestanding of the SPI system and the reconstruction techniques used.
 For questions or assistance, please contact Kyungduck Yoon at leo.k.yoon@gatech.edu
