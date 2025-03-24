@@ -11,11 +11,17 @@ The code follows five main steps:
 # Prerequisites:
 This pipeline require MIJ, a Java package for running ImageJ and Fiji within Matlab. While a relevant files are uploaded within the package, they could be found at:
 https://www.mathworks.com/matlabcentral/fileexchange/47545-mij-running-imagej-and-fiji-within-matlab
+
 https://imagej.net/plugins/miji
+
 Grid/Collection stitching plugin by Preibisch et al., Bioinformatics (2009) is used in this source code.
+
 Prior to running the SPI.m source code, please add mij.jar and ij.jar to the java folder of your MATLAB path. 
+
 e.g. 
+
 javaaddpath 'C:\Program Files\MATLAB\R2020b\java\mij.jar'
+
 javaaddpath 'C:\Program Files\MATLAB\R2020b\java\ij.jar'
 
 # Steps:
