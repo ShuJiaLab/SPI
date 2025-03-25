@@ -9,7 +9,7 @@ The code follows five main steps:
 
 
 # Prerequisites:
-This pipeline require MIJ, a Java package for running ImageJ and Fiji within Matlab. While a relevant files are uploaded within the package, they could be found at:
+This pipeline requires MIJ, a Java package for running ImageJ and Fiji within Matlab. While relevant files are uploaded within the package, they could be found at:
 https://www.mathworks.com/matlabcentral/fileexchange/47545-mij-running-imagej-and-fiji-within-matlab
 
 https://imagej.net/plugins/miji
@@ -25,7 +25,7 @@ javaaddpath 'C:\Program Files\MATLAB\R2020b\java\mij.jar'
 javaaddpath 'C:\Program Files\MATLAB\R2020b\java\ij.jar'
 
 # Steps:
-Step 1. The size of raw images collected by the TDI sensor is determined by the buffer height set by the frame grabber. As the SPI system images super-resolution samples in motion, images need to be stiched to represent a true specimen captured by sample scanning. Example raw images are located in Sample_data folder.
+Step 1. The size of raw images collected by the TDI sensor is determined by the buffer height set by the frame grabber. As the SPI system images super-resolution samples in motion, images need to be stiched to represent true specimens captured by sample scanning. Example raw images are located in Sample data folder->Please refer to the following section.
 
 Step 2. Since the width of the TDI sensor (4k) vastly surpasses the microscope FOV, an additional step is required to crop out unnecessary FOV captured by the sensor. Furthermore, due to a Gaussian collimated beam illuminating the MLA, optical post processing results in weaker signals near the periphery and surface imperfections further impose fixed pattern noise (FPN) on the instant image collected by SPI. Sample calibration images are provided in the Calibration folder, time-averaged images of dark signal and a slide of uniform fluorescent dye.
 
